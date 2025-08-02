@@ -23,4 +23,12 @@ This project is designed to process streaming transaction data, apply feature en
 - **Docker / WSL (if applicable)**
 
 ## 📁 Project Structure
-
+fraud_project/
+├── spark_job/
+│ └── spark_stream.py # PySpark streaming job
+├── model/
+│ └── fraud_model # Serialized Spark ML model
+├── data/
+│ └── sample_transactions/ # Sample JSON transactions (optional)
+├── requirements.txt
+└── README.md
